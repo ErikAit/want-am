@@ -1,4 +1,7 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: lato;
   margin-top: 20px;
 
@@ -38,6 +41,54 @@
     img {
       width: 468px;
       height: 328px;
+    }
+  }
+
+  .main-category_container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .main-category {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swiper-wrapper {
+        display: flex;
+
+        .swiper-slide {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 11px;
+          width: 370px;
+          height: 105px;
+
+          img {
+            padding: 15px;
+          }
+
+          .about {
+            font-family: Lato;
+
+            h2 {
+              font-size: 18px;
+            }
+
+            p {
+              color: #7d7d83;
+              font-size: 12px;
+              margin: 6px 0 11px;
+
+              span {
+                font-size: 16px;
+                color: #7776e5;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

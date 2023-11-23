@@ -1,4 +1,7 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: lato;
   margin-top: 20px;
 }
@@ -33,4 +36,43 @@
 .main .main-banner-container img {
   width: 468px;
   height: 328px;
+}
+.main .main-category_container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.main .main-category_container .main-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-category_container .main-category .swiper-wrapper {
+  display: flex;
+}
+.main .main-category_container .main-category .swiper-wrapper .swiper-slide {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 370px;
+  height: 105px;
+}
+.main .main-category_container .main-category .swiper-wrapper .swiper-slide img {
+  padding: 15px;
+}
+.main .main-category_container .main-category .swiper-wrapper .swiper-slide .about {
+  font-family: Lato;
+}
+.main .main-category_container .main-category .swiper-wrapper .swiper-slide .about h2 {
+  font-size: 18px;
+}
+.main .main-category_container .main-category .swiper-wrapper .swiper-slide .about p {
+  color: #7d7d83;
+  font-size: 12px;
+  margin: 6px 0 11px;
+}
+.main .main-category_container .main-category .swiper-wrapper .swiper-slide .about p span {
+  font-size: 16px;
+  color: #7776e5;
 }/*# sourceMappingURL=Section.css.map */
