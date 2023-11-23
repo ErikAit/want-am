@@ -61,7 +61,7 @@ export default function Header() {
       <div className="main-menu">
         <div className="main-menu-content">
           <ul className="menu">
-            <li><a href="#"><img src={menu} alt="menu icon" /> Բոլոր նվերները</a></li>
+            <li><a className="active" href="#"><img src={menu} alt="menu icon" />Բոլոր նվերները</a></li>
             <li><a href="#">Հոբբի</a></li>
             <li><a href="#">Սեղանի խաղեր</a></li>
             <li><a href="#">Օպտիկա</a></li>

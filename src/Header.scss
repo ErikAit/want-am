@@ -8,6 +8,10 @@
   letter-spacing: 1px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -75,7 +79,7 @@
   }
 
   .center-panel {
-    padding-top: 20px;
+    margin-top: 40px;
     width: 100%;
 
     .center-panel-content {
@@ -118,6 +122,40 @@
             width: 160px;
             height: 55px;
             cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .main-menu {
+    margin-top: 40px;
+    width: 100%;
+    background: #7776e5;
+
+    .main-menu-content {
+      display: flex;
+      justify-content: center;
+
+      .menu {
+        display: flex;
+        align-items: center;
+
+        li {
+          padding: 13px 16px;
+
+          .active {
+            padding: 13px 5px;
+            color: #7776e5;
+            background: #FFF;
+            border-radius: 23px;
+          }
+
+          a {
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            color: #FFF;
           }
         }
       }

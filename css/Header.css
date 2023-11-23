@@ -8,6 +8,10 @@
   letter-spacing: 1px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -63,7 +67,7 @@
   border-left: 1px solid #b3b3c0;
 }
 .header .center-panel {
-  padding-top: 20px;
+  margin-top: 40px;
   width: 100%;
 }
 .header .center-panel .center-panel-content {
@@ -102,4 +106,32 @@
   width: 160px;
   height: 55px;
   cursor: pointer;
+}
+.header .main-menu {
+  margin-top: 40px;
+  width: 100%;
+  background: #7776e5;
+}
+.header .main-menu .main-menu-content {
+  display: flex;
+  justify-content: center;
+}
+.header .main-menu .main-menu-content .menu {
+  display: flex;
+  align-items: center;
+}
+.header .main-menu .main-menu-content .menu li {
+  padding: 13px 16px;
+}
+.header .main-menu .main-menu-content .menu li .active {
+  padding: 13px 5px;
+  color: #7776e5;
+  background: #FFF;
+  border-radius: 23px;
+}
+.header .main-menu .main-menu-content .menu li a {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #FFF;
 }/*# sourceMappingURL=Header.css.map */
