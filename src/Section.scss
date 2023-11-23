@@ -1,0 +1,43 @@
+.main {
+  font-family: lato;
+  margin-top: 20px;
+
+  .main-banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .textContent {
+      width: 30%;
+
+      h1 {
+        font-size: 38px;
+        margin: 0 0 15px;
+      }
+
+      p {
+        width: 600px;
+        padding: 6px 0;
+        line-height: 1.9;
+        color: #7d7d83;
+      }
+
+      button {
+        margin: 28px 0 20px;
+        padding: 12px 20px;
+        background: #7776e5;
+        border-radius: 40px;
+        border: 0;
+
+        a {
+          color: #FFF;
+        }
+      }
+    }
+
+    img {
+      width: 468px;
+      height: 328px;
+    }
+  }
+}
